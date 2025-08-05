@@ -239,7 +239,7 @@ git push -u origin main
 # 5. Watch the Action Deploy Your Site
 GitHub Actions will automatically build and deploy your site.
 
-The deployment may take a couple of minutes — once complete, a live URL will appear in the workflow logs and under Settings → Pages, which you can click to view your published site.
+The deployment may take a couple of minutes — once complete, a live URL will appear under **Settings → Pages**, which you can click to view your published site.
 
 ---
 
