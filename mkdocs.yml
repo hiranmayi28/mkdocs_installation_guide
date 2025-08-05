@@ -1,0 +1,88 @@
+site_name: MkDocs Installation Guide
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  icon:
+    logo: fontawesome/solid/feather
+
+  font:
+    text: Montserrat
+    code: Red Hat Mono
+
+  palette:
+    # Dark Mode
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Dark mode
+      primary: deep orange
+      accent: deep purple
+
+    # Light Mode
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Light mode
+      primary: blue
+      accent: green
+  
+  features:
+    - navigation.instant
+    - navigation.expand
+    - navigation.sections
+    
+    
+    - content.code.copy
+    - content.tabs.link
+    - header.autohide
+    - content.code.select
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator:
+        !!python/name:material.extensions.emoji.to_svg 
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+
+    
+ 
+ 
+
+nav:
+  - Home: index.md
+  - 1. Initial System Setup: part1.md
+  - 2. Create Project Directory: part2.md
+  - 3. Install MkDocs & Material: part3.md
+  - 4. Create and Configure the Project: part4.md
+  - 5. Deploy with GitHub Actions: part5.md
+
+plugins:
+  - search
+
+extra:
+  author: Hiranmayi K
+  description: Technical Writer
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/hiranmayi-k28703/
+    - icon: fontawesome/brands/github
+      link: https://github.com/hiranmayi28
+      
+
+copyright: © Hiranmayi K — Technical Writer
