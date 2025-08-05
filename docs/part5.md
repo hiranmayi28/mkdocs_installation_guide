@@ -238,11 +238,8 @@ git push -u origin main
 
 # 5. Watch the Action Deploy Your Site
 GitHub Actions will automatically build and deploy your site.
-To monitor the process:
 
- 1. Go to the **Actions** tab in your repository.
- 2. Look for the deployment workflow run.
- 3. Once complete, your site will be live at the **generated url**.
+The deployment may take a couple of minutes — once complete, a live URL will appear in the workflow logs and under Settings → Pages, which you can click to view your published site.
 
 ---
 
